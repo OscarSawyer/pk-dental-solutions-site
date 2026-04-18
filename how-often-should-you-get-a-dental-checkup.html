@@ -53,7 +53,7 @@ gtag('config', 'G-2CRGWR2BLT');
 </div>
 
 <!-- HEADER -->
-<header class="site-header">
+<!-- <header class="site-header">
   <div class="container header__inner">
     <a class="logo" href="index.html">
       <strong>PK Dental Solutions</strong>
@@ -78,6 +78,37 @@ gtag('config', 'G-2CRGWR2BLT');
            onclick="gtag('event','book_click',{'event_category':'engagement','event_label':'Header Book'});">
            Book Appointment
         </a>
+      </div>
+    </nav>
+  </div>
+</header> -->
+
+<header class="site-header" id="siteHeader">
+  <div class="container header__inner">
+    <a class="logo" href="index.html" aria-label="PK Dental Solutions home">
+      <span class="logo__mark">PK</span>
+      <span class="logo__text">
+        <strong>PK Dental Solutions</strong>
+        <small>Professional Dental Care in Kampala</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="site-nav__cta">
+        <a class="btn btn--ghost" href="tel:+256741408584" data-track="call" data-track-label="Header Call Now">Call Now</a>
+        <a class="btn btn--primary cta-pulse" href="book-appointment.html" data-track="book_click" data-track-label="Header Book Appointment">Book Appointment</a>
       </div>
     </nav>
   </div>
@@ -292,6 +323,7 @@ gtag('config', 'G-2CRGWR2BLT');
     Book
   </a>
 </div>
-
+ <script src="assets/js/main.js"></script>
+  <script src="assets/js/forms.js"></script>
 </body>
 </html>
